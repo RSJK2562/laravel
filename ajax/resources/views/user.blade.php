@@ -72,7 +72,7 @@
                         "_token": "{{ csrf_token() }}",
                         data: data,
                     },
-                    deforeSend: function() {
+                    beforeSend: function() {
                         $('.btn-success').html('Please Wait...!');
                     },
                     success: function(response) {

@@ -122,7 +122,7 @@
                         mobile: mobile,
                         password: pwd
                     },
-                    deforeSend: function() {
+                    beforeSend: function() {
                         $('.btn-success').html('Please Wait...!');
                     },
                     success: function(response) {
